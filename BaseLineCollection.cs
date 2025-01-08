@@ -25,12 +25,12 @@ public class BaseLineCollection<T> : BaseCollection<T>
 
     public override T FirstObject()
     {
-        return _list[0];
+        return _list.First();
     }
 
     public override T LastObject()
     {
-        return _list[^1];
+        return _list.Last();
     }
 
     public override int Count()
